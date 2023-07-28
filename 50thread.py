@@ -1,4 +1,4 @@
-import threading
+from threading import Thread
 
 t = threading.current_thread().getName()
 
